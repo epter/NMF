@@ -2,9 +2,9 @@ import csv
 import numpy as np
 
 row2 = list() 
-mapp = np.zeros((400,400))              # 200×200の配列
-countzero = 0                           # 訪れなかった箇所の数
-maxcount = 2365
+mapp = np.zeros((400,400))              # 配列数　400ⅹ400　배열수 
+countzero = 0                           # 訪れなかった箇所の数 시작 수
+maxcount = 2365                         # 총 배열의 수를 기입 
 
 csvfile = open("allpd.csv", encoding="shift-jis")  #CSVファイルの読み込み
 for row in csv.reader(csvfile):
